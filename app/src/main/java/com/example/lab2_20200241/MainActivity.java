@@ -1,6 +1,8 @@
 package com.example.lab2_20200241;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +23,17 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+
+    public void indicaciones(View view){
+        Intent intent = new Intent(this, MainActivity2.class);
+        startActivity(intent);
+    }
+
+
+    public void calcular(View view){
+        Intent intent = new Intent(this, MainActivity3.class);
+        startActivity(intent);
+    }
+
 }
