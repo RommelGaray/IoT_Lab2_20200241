@@ -2,6 +2,7 @@ package com.example.lab2_20200241;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 
 import androidx.activity.EdgeToEdge;
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
 
 
     public void indicaciones(View view){
